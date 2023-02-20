@@ -1,6 +1,10 @@
-# Title (replace with your title)
+# Title: How to bake a cookie
 
-Introductory paragraph (replace this with your text)
+1. To start off the tutorial we will need to start the the beginning of the string.
+2. Looking ahead in the string for the word "cookie".
+3. If "cookie" is found, continue to the next step. Otherwise, backtrack and try again.
+4. Look ahead for the string for the word "flour".
+5. If "flour" is found, continue to the next step. Otherwise, backtrack and try again.
 
 ## Summary
 
