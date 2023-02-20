@@ -42,11 +42,28 @@
 
 ### Quantifiers
 
-Did not use any quantifiers for this tutorial
+Did not use any quantifiers for this tutorial but here are some common qunatifiers that are usually in regular expressions:
+
+'*': Matches zero or more occurrences of the preceding character or group.
+
+'+': Matches one or more occurrences of the preceding character or group.
+
+'?': Matches zero or one occurrence of the preceding character or group.
+
+'{n}': Matches exactly n occurrences of the preceding character or group.
+
+'{n,}': Matches at least n occurrences of the preceding character or group.
+
+'{n,m}': Matches between n and m occurrences of the preceding character or group.
+
+
 
 ### OR Operator
 
+Did not use any OR Operators
 
+If i did, 'cookie|monster': Matches either "cookie or "monster".
+cookie|book|milk: matches either "cookie, "book", "milk.
 
 ### Character Classes
 
