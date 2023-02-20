@@ -5,6 +5,13 @@
 3. If "cookie" is found, continue to the next step. Otherwise, backtrack and try again.
 4. Look ahead for the string for the word "flour".
 5. If "flour" is found, continue to the next step. Otherwise, backtrack and try again.
+6. Look ahead in the string for the word "sugar".
+7. If "sugar is found, continue to the next step. Otherwise, go back and try again.
+8. Look ahead in the string for the word "butter".
+9. If "butter" is found, continue to the next step. Otherwise, go back and try again.
+10. Make sure to match any remaining characters in the string.
+11. End the match at the end of the string.
+12. If the entire pattern is found, return a match, If not, then don't return a match. 
 
 ## Summary
 
