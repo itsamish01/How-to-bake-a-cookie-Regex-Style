@@ -35,6 +35,11 @@
 
 ### Anchors
 
+'^': This anchor denotes the start of the string. In this regex, it is used to ensure that the pattern matches only at the beginning of the string.
+
+'$': This anchor denotes the end of the string. In this regex, it is used to ensure that the pattern matches only up to the end of the string.
+
+
 ### Quantifiers
 
 ### OR Operator
