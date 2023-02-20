@@ -62,10 +62,20 @@ Did not use any quantifiers for this tutorial but here are some common qunatifie
 
 Did not use any OR Operators
 
-If i did, 'cookie|monster': Matches either "cookie or "monster".
+If i did, 'cookie|monster': Matches either "cookie or "monster". or
 cookie|book|milk: matches either "cookie, "book", "milk.
 
 ### Character Classes
+
+'\b': Matches a word boundary, which is the position between a word character (as defined by \w) and a non-word character (as defined by \W), or the start or end of a string. In this regex, \b is used to ensure that the words "cookie", "flour", "sugar", and "butter" are matched as whole words, not as parts of longer words.
+
+'\w': Matches any word character, which includes letters, digits, and underscores. In this regex, \w is used in the positive lookahead assertions to match any sequence of word characters that contains the specified words.
+
+'\W': Matches any non-word character, which includes spaces, punctuation, and other non-alphanumeric characters. In this regex, \W is used in the positive lookahead assertions to match any sequence of non-word characters that separates the specified words.
+
+'.': Matches any character except a newline character. In this regex, .* is used at the end of the pattern to match any number of characters (including spaces and other non-word characters) between the specified words
+
+Using the characters allowed me to match a range of input strings and seperate the words "cookie", "flour", "sugar" and butter.
 
 ### Flags
 
