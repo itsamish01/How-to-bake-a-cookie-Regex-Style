@@ -42,7 +42,11 @@
 
 ### Quantifiers
 
+Did not use any quantifiers for this tutorial
+
 ### OR Operator
+
+
 
 ### Character Classes
 
