@@ -1,5 +1,5 @@
 # How to bake a cookie
-Regex Tutorial for matching US Currency in various formats
+Regex Tutorial for How to bake a cookie
 # 17 Computer Science for JavaScript: Regex Tutorial
 
 ## Your Task
